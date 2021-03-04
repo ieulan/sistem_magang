@@ -1,0 +1,76 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 35px;
+    padding: 0;
+}
+
+.navbar{
+	color: #2980b9;
+}
+
+.container{
+	color: black;
+}
+
+.card{
+	background: linear-gradient(120deg, #2980b9, #8e44ad);
+	border-radius: 10px;
+	color: #ffffff;
+}
+
+.login{
+	width: 400px;
+	position: absolute;
+	margin-top: 7%;
+}
+
+.login h3{
+	text-align: center;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid silver;
+}
+
+.login form{
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+.form-group{
+	border-bottom: 2px solid #adadad;
+}
+
+.form-group label{
+	position: absolute;
+	left: 35px;
+	transform: translateY(-92%);
+	color: #adadad;
+	font-size: 15px;
+	pointer-events: none;
+}
+
+.form-control{
+	background: none;
+	border: none;
+	outline: none;
+}
+
+.container img{
+	padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    height: 20px;
+    font-size: 10pt;
+}
